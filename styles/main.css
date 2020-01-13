@@ -1,5 +1,17 @@
 body {
-    color: yellow;
-    background-color: violet;
+    color: lightyellow
+    font-family: Impact, sans-serif;
+    }
     
+header{
+    max-width: 400px;
+    background-color: blueviolet;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
 }
+
+footer{
+    max-width: 200px;
+    background-color: blueviolet;
+    font-family: 'Trebuchet MS', 'Lucinda Sans Unicode';
+}
+
