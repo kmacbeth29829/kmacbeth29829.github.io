@@ -1,21 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap');
+
 body {
-    color: lightyellow
     font-family: Impact, sans-serif;
+    position: center;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: black;
+    border: 2px solid #8b32a8;
+    border-radius: 12px;
     }
 
 header{
-    max-width: 400px;
-    background-color: blueviolet;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    
+    background-color: #8b32a8;
+    font-family: 'Montserrat', 'Lucida Sans Unicode';  
+    border-radius: 10px 10px 0px 0px;
+    margin-top: -1.3em;
 }
 
+header img{
+    float: right;
+    margin-right: 1em;
+}
+
+header h2{
+    margin: auto;
+    margin-left: 4em;
+    padding-bottom: 1em;
+}
+
+main h2{
+    margin: auto;
+    margin-left: 4.5em;
+    text-align: center;
+}
+
+h1{
+    margin-right: 3em;
+}
+main{
+    padding: 1em;
+    text-align: left;
+    font-family: 'Open Sans';
+}
+
+ul li{
+    margin: auto;
+    width: 45%;
+    margin-right: 14em;
+    padding: 1em;
+}
 footer{
-    max-height: 200px;
-    max-width: 400px;
-    background-color: blueviolet;
-    font-family: 'Trebuchet MS', 'Lucinda Sans Unicode';
+    background-color: #8b32a8;
+    font-family: 'Montserrat', 'Lucinda Sans Unicode';
+    padding: 1em;
+    border-radius: 0px 0px 10px 10px;   
 }
 
-html{
-    float: left;
-}
+
