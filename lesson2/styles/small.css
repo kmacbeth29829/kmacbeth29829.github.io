@@ -2,7 +2,7 @@
 
 .home-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
 }
 
 .travel-pic{
@@ -11,9 +11,15 @@
 
 /* html selector */
 header{
-    grid-column: 1/4;
-    grid-row: 1/2;
     background-color:#f7f781; 
+}
+
+body{
+    font-size: 10pt;
+}
+
+img{
+    width: 200px;
 }
 
 /*id selector */

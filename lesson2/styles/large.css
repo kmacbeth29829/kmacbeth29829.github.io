@@ -1,0 +1,6 @@
+@media on ly screen and (min-width: 64em){
+    .home-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+}

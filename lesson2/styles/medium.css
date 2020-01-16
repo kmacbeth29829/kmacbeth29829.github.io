@@ -1,0 +1,14 @@
+@media on ly screen and (min-width: 32.5em){
+    body{
+        font-size: 12pt;
+    }
+
+    img{
+        width: 500px;
+    }
+
+    .home-grid{
+        grid-template-columns: 1fr 1fr;
+        }
+    }
+}
