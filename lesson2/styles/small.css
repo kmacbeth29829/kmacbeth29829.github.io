@@ -1,26 +1,31 @@
+/* class selectors */
+
 .home-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.travel-pic{
+    width: 300px;
+}
+
+/* html selector */
 header{
     grid-column: 1/4;
     grid-row: 1/2;
     background-color:#f7f781; 
 }
 
-.column-one{
+/*id selector */
+#column-one{
     grid-column: 1/2;
 }
 
-.column-two{
+#column-two{
     grid-column: 2/3;
 }
 
-.column-three{
+#column-three{
     grid-column: 3/4;
 }
 
-.travel-pic{
-    width: 300px;
-}
