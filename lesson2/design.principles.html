@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Introduction page</title>
-    <link rel="stylesheet" href="lesson2/styles/small.css">
-    <link rel="stylesheet" href="lesson2/styles/medium.css">
-    <link rel="stylesheet" href="scripts/currentDate.js">
-    <link rel="stylesheet" href="lesson2/styles/large.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="scripts/current_date.js">
+    <link rel="stylesheet" href="styles/large.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -20,35 +21,60 @@
     </header>
     <main>
         <div class="home-grid">
-            <div id="column-one">
-                <h2>Visual Hiearchy</h2>
-                <h3>The Church Of Jesus Christ of Latter-day Saints</h3>
-                <a href="https://www.churchofjesuschrist.org/?lang=eng"> churchofjesuschrist.org</a>
-                <img src="img/rsz_img_3144.png" alt="picture of trees">
+            <div class="column-one">
+                <section class="column-one-heading">
+                    <h2>Visual Hiearchy</h2>
+                    <h3>The Church Of Jesus Christ of Latter-day Saints</h3>
+                    <a href="https://www.churchofjesuschrist.org/?lang=eng"> churchofjesuschrist.org</a>
+                </section>
+               
+                <img class="picture-one" src="img/churchpic.png" alt="picture of trees">
+                <p>
+                    I chose the Church of Jesus Christ of Latter-day Saints for Visual Hiearchy
+                    becuase they do a really good job of putting the most important things first.
+                    For example the first thing you see on the page is the most recent and more
+                    important, right now it's a message from the prophet.
+                </p>
             </div>
-            <div id="column-two">
-                <h2>Hicks Law</h2>
-                <h3>Idaho Central Credit Union</h3>
-                <a href="https://www.iccu.com/"> iccu.com</a>
-                <img src="img/rsz_img_3146.png" alt="picture of person">
+            <div class="column-two">
+                <section class="column-two-heading">
+                    <h2>Hicks Law</h2>
+                    <h3>Idaho Central Credit Union</h3>
+                    <a href="https://www.iccu.com/"> iccu.com</a>
+                </section>
+                
+                <img class="picture-two" src="img/rsz_img_3144.png" alt="picture of person">
+                <p>
+                    Idaho Central Credit Union is a good example of Hicks law. When you first
+                    go to the webpage you only have about four options. Hicks Law states that
+                    the fewer options the better. They were able to get lots of options down to just
+                    a couple really important ones.
+                </p>
             </div>
-            <div id="column-three">
-                <h2>Contrast</h2>
-                <h3>Heart of Travel</h3>
-                <a href="https://www.heartoftravel.org/"> heartoftravel.org</a>
-                <img class="travel-pic" src="img/IMG_3149.jpg" alt="picture of traveling">
+            <div class="column-three">
+                <section class="column-three-heading">
+                    <h2>Contrast</h2>
+                    <h3>Heart of Travel</h3>
+                    <a href="https://www.heartoftravel.org/"> heartoftravel.org</a>
+                </section>
+               
+                <img class="picture-three" src="img/IMG_3149.jpg" alt="picture of traveling">
+                <p>
+                    Heart of Travel does a good job of contrast with their background.
+                    They have a bunch of different picutres that draw your eye and 
+                    emphasize their product. It's very effective. 
+                </p>
             </div>
         </div>
     </main>
     <footer>
-        <p> &copy; <span id="currentYear"></span> * Kenna Macbeth * Idaho * <a class="byui" href="http://www.byui.edu"
-                target="_blank">BYU-Idaho </a>
+        <p> &copy; <span id="currentYear"></span> * Kenna Macbeth * Idaho 
             * last modified <span id="lastModified"></span></p>
 
         Current Date: <span id="currentdate"></span>
         <br>
     </footer>
-    <script src="scripts/currentDate.js"></script>
+    <script src="scripts/current_date.js"></script>
 </body>
 
 </html>
