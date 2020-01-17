@@ -21,6 +21,8 @@ a:hover {
 
 
 
+
+
 /* html selector */
 header {
     background-color: #48646F;
@@ -49,6 +51,11 @@ h1 {
 
 h3 {
     padding: 1em;
+}
+
+p{
+    padding: 2em;
+    font-size: 1.2em;
 }
 
 
