@@ -67,7 +67,6 @@ p{
     margin-top: -.2em;
 }
 .column-one {
-    grid-column: 1/2;
     border: 2px solid black;
     border-radius: 15px;
     margin: 1.5em;
@@ -84,7 +83,6 @@ p{
 }
 
 .column-two {
-    grid-column: 2/3;
     border: 2px solid black;
     border-radius: 15px;
     margin: 1.2em;
@@ -99,7 +97,6 @@ p{
 }
 
 .column-three {
-    grid-column: 3/4;
     border: 2px solid black;
     border-radius: 15px;
     margin: 1.5em;
