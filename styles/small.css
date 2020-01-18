@@ -67,9 +67,7 @@ a{
 a:visited{
     color: black; 
     }
-a:hover {
-    color:white ;
-}
+
       
 :active {
     color: blue;
