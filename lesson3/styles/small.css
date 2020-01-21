@@ -1,0 +1,11 @@
+ul{
+    list-style: none;   
+}
+
+ul li a {
+    text-decoration: none;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
