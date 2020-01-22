@@ -12,7 +12,9 @@ ul li a {
 .flex{
     display: flex;
     flex-direction: column;
+    
 }
+
 
 header{
     border-top: 20px solid black;
@@ -26,14 +28,22 @@ body{
 }
 
 .first_paragraph{
-    margin-top: 12em;
+    margin-top: 5em;
+    text-align: center;
 }
 
 h1 h2 {
     font-family: 'Lato', sans-serif;
+    text-align: center;
 }
 
+/* h2{
+    text-align: center;
+} */
 h1{
     margin-top: -2em;
 }
 
+.picture-one{
+    margin-top: -5.3em;
+}
