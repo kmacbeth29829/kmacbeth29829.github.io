@@ -14,11 +14,20 @@ ul li a{
     text-decoration: none;
 }
 
+a{
+    color: cadetblue;
+}
+
+a:hover{
+    color: white;
+}
+
 body{
     max-width: 1000px;
     margin: auto;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Lato', sans-serif;
     background-color: cadetblue;
+    font-size: large;
 }
 
 .first_paragraph{
@@ -27,15 +36,15 @@ body{
     margin-bottom: 8em;
 }
 
-h2 {
-    font-family: 'Lato', sans-serif;
+h1 h2 {
+    font-family: 'Noto Sans JP', sans-serif;
     text-align: center;
 }
 
 .navbar{
     border: 2px solid black;
     background-color: black;
-    margin: 1em;
+    /* margin: 1em; */
     border-radius: 5px;
 
 
@@ -48,27 +57,48 @@ h2 {
 
 .picture-two{
     float: right; 
-    margin-top: -15px;
+    margin-top: 15px;
     z-index: 0;
 }
 
 footer{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-evenly; 
     background-color: black;
     margin-top: 1em;
     margin-bottom: 1em;
     padding: 1em;
     border-radius: 5px;
+    color: cadetblue;
 }
 
-footer p{
-    color: white;
-
+header {
+    margin: 10px;
 }
 
 .first_paragraph_target{
     text-align: left;
-    margin: 7em;
+    margin: 5em;
+}
+
+.color_scheme{
+    border: 3px solid white;
+    align-items: center;
+    margin-bottom: 3em;
+    margin-top: 3em;
+}
+
+.heading_color{
+    text-align: center;
+    margin: 2em;
+}
+
+.noto_sans{
+    font-family: 'Noto Sans JP';
+}
+
+.lato{
+    font-family: 'Lato';
+    margin-bottom: 4em;
 }
