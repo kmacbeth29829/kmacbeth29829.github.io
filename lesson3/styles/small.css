@@ -42,14 +42,14 @@ h2 {
 }
 
 .picture-one{
-   margin-left: -5em;
+   margin-left: -2em;
+   z-index: 1;
 }
 
 .picture-two{
-    border-radius: 10px;
-    float: right;
-    margin: 20px;
-
+    float: right; 
+    margin-top: -15px;
+    z-index: 0;
 }
 
 footer{
@@ -66,4 +66,9 @@ footer{
 footer p{
     color: white;
 
+}
+
+.first_paragraph_target{
+    text-align: left;
+    margin: 7em;
 }
