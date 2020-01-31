@@ -101,6 +101,10 @@ h2{
 
 .flex{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+nav ul.responsive{
+    display: none;
 }
