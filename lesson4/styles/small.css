@@ -5,21 +5,102 @@ body, html, header{
 }
 ul {
     list-style: none;
+    background-color: pink;
+    margin-top: -20px;
+
+}
+a:link, a:visited {
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+a:hover, a:active {
+    background-color: red;
+}
+body{
+    background-color: #E8f7ee;
 }
 
 ul li a{
     text-decoration: none;
+    color: black;
+    font-family: 'Lato';
+
 }
 
 header{
     background-color: cadetblue;
+    font-family: 'Lato';
+
 }
 
 footer{
     background-color: cadetblue;
+    font-family: 'Lato';
+
 }
 
 main{
-    max-width: 80%;
+    max-width: 65%;
     margin: 0 auto;
+    font-family: 'Lato';
+}
+
+h1{
+    text-align: center;
+    font-family: 'Noto Sans JP';}
+
+h2{
+    text-align: center;
+    z-index: 1;
+
+}
+
+/* class selectors */
+
+
+#hero{
+    background-color: #23395b;
+    padding: 1em;
+    margin: 10px;
+    color: #E8f7ee;
+    
+}
+
+#preston{
+    background-color: #23395b;
+    padding: 1em;
+    margin: 10px;
+    color: #E8f7ee;
+
+}
+#five_day_forcast{
+    background-color: #23395b;
+    padding: 1em;
+    margin: 10px;
+    color: #E8f7ee;
+
+}
+#contact{
+    background-color: #23395b;
+    padding: 1em;
+    margin: 10px;
+    color: #E8f7ee;
+
+}
+
+#article{
+    background-color: #23395b;
+    padding: 1em;
+    margin: 10px;
+    color: #E8f7ee;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
 }
