@@ -6,25 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Preston Town Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="scripts/currentDate.js">
-    <link rel="stylesheet" href="scripts/menu.js">
-    <link href="https://fonts.googleapis.com/css?family=Lato|Noto+Sans+JP&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
     <header>
-        <img class="picture-one" src="img/blackbluelogo.jpg" alt="white logo" width="25%">
-        <h1>Adventure Weather</h1>
-        <h2>One goal One passion</h2>
+        <img class="picture-one" src="img/blackbluelogo.jpg" alt="white logo">
+        <div>
+            <h1>Adventure Weather</h1>
+            <h2>One goal One passion</h2>
+        </div>
     </header>
     <nav>
-        <ul class="flex">
-            <li><a class="hamburger" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
             <li><a href="styles/preston-4.html"> home</a></li>
             <li><a href="#"> preston</a></li>
             <li><a href="#"> Soda Springs</a></li>
@@ -34,7 +33,7 @@
         </ul>
     </nav>
     <main>
-        <section id="preston"> 
+        <section id="preston">
             <h2>Preston</h2>
         </section>
         <section id="hero">
@@ -50,8 +49,11 @@
             <h2>Contact</h2>
         </section>
     </main>
-    <footer>        
-        <p>&copy Current Date <span id="currentdate"></span></p>
+    <footer>
+        <p>&copy Adventure Weather | Kenna Macbeth | <span id="currentDate"></span> </p>
     </footer>
+    <script src="scripts/currentDate.js"></script>
+    <script src="scripts/menu.js"></script>
 </body>
+
 </html>

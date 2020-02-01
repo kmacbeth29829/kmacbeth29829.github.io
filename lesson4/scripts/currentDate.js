@@ -1,10 +1,10 @@
-const currentDate = new Date();
-console.log(currentDate);
+// const currentDate = new Date();
+// console.log(currentDate);
 
-const currentYear = currentDate.getFullYear();
-console.log(currentYear);
+// const currentYear = currentDate.getFullYear();
+// console.log(currentYear);
 
-document.getElementById("currentYear").innerHTML = currentYear;  
+// document.getElementById("currentDate").innerHTML = currentYear;  
 
 let dayNames = [
     "Sunday",
@@ -34,10 +34,10 @@ let monthNames = [
 let d = new Date();
 let dayName = dayNames[d.getDay()];
 let monthName = monthNames[d.getMonth()];
-let fullDate = dayName + "," + monthName + "" + d.getDate() + " , " + d.getFullYear();
-document.getElementById("currentdate").innerHTML = fullDate;
+let fullDate = dayName + ", " + d.getDate() + " " + monthName + " " + d.getFullYear();
+document.getElementById("currentDate").innerHTML = fullDate;
 
-document.getElementById("lastModified").textContent = document.lastModified;
+// document.getElementById("lastModified").textContent = document.lastModified;
 
 // try{
 //     let options  = {
