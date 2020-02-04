@@ -141,3 +141,7 @@ h2{
     padding: 10px;
 }
 
+#weather_summary{
+    position: absolute;
+    top: 1px;
+}

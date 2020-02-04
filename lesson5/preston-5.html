@@ -34,23 +34,24 @@
         </ul>
     </nav>
     <main>
+        <div class="grid">
         <h2 class="preston">Preston Idaho</h2>
         <section id="hero">
             <h2>Hero</h2>
             <img src="img/sun_image.jfif" alt="image of sun">
-            <article>
+            <article id="weather_summary">
                 <h1>Weather Summary</h1>
                 <div>
                     <span>Current Temperature: </span>
-                    <span>48&deg;</span>
+                    <span id="temp"></span>
                 </div>
                 <div>
                     <span>Wind Speed: </span>
-                    <span>15mph</span>
+                    <span id="wind_speed"></span>
                 </div>
                 <div>
                     <span>humidity: </span>
-                    <span>20%</span>
+                    <span id="humidity"></span>
                 </div>
             </article>
         </section>
@@ -63,12 +64,14 @@
         <section id="contact">
             <h2>Contact</h2>
         </section>
+        </div>
     </main>
     <footer>
         <p>&copy Adventure Weather | Kenna Macbeth | <span id="currentDate"></span> </p>
     </footer>
     <script src="scripts/currentDate.js"></script>
     <script src="scripts/menu.js"></script>
+    <script src="scripts/more.js"></script>
 </body>
 
 </html>
