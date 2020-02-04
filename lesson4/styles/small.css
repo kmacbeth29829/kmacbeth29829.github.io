@@ -87,13 +87,10 @@ h2{
 
 /* class selectors */
 
-#hero{
-    background-color: #23395b;
+/* #hero{
     padding: 1em;
     margin: 10px;
-    color: #E8f7ee;
-    
-}
+} */
 
 #preston{
     background-color: #23395b;
@@ -139,5 +136,9 @@ h2{
 .preston{
     text-align: center;
     padding: 10px;
+}
+
+.hero_pic{
+    width: 50%;
 }
 

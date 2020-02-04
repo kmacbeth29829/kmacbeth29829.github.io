@@ -143,5 +143,12 @@ h2{
 
 #weather_summary{
     position: absolute;
-    top: 1px;
+    bottom: 10px;
+    border: white;
+}
+
+table, tr, th, td{
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 5px;
 }
