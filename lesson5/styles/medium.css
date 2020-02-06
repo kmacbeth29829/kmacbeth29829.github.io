@@ -26,4 +26,17 @@
 	.navigation li:first-child {
 		display: none;
 	}
+
+	#five_day_forcast{
+		display: block;
+	}
+	
+	#weather_summary{
+		margin-bottom: auto;
+		width: 20%;
+	}
+
+	.hero_pic{
+		width: 100%;
+	}
 }

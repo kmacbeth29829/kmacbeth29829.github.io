@@ -87,11 +87,11 @@ h2{
 
 /* class selectors */
 
-/* #hero{
+ #hero{
     padding: 1em;
     margin: 10px;
-} */
-/* 
+} 
+ 
 #preston{
     background-color: #23395b;
     padding: 1em;
@@ -119,7 +119,7 @@ h2{
     padding: 1em;
     margin: 10px;
     color: #E8f7ee;
-} */
+} 
 
 .navigation{
     display: flex;

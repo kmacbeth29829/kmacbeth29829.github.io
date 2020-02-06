@@ -87,7 +87,7 @@ h2{
 
 /* class selectors */
 
-#hero{
+/* #hero{
     background-color: #23395b;
     padding: 1em;
     margin: 10px;
@@ -122,7 +122,7 @@ h2{
     padding: 1em;
     margin: 10px;
     color: #E8f7ee;
-}
+} */
 
 .navigation{
     display: flex;
@@ -144,11 +144,49 @@ h2{
 #weather_summary{
     position: absolute;
     bottom: 10px;
-    border: white;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 40%;
 }
 
 table, tr, th, td{
-    border: 1px solid white;
+    border: 1px solid black;
     border-collapse: collapse;
     padding: 5px;
+}
+
+.hero_pic{
+    width: 150%;
+    
+}
+
+.article_pic{
+    float: right;
+    padding: 20px;
+}
+
+section{
+    margin: 30px;
+}
+
+/* #weather_summary{
+    border: 2px solid black;
+    padding: 15px;
+    margin: 10px;
+} */
+
+
+#five_day_forcast{
+    display: none;
+}
+
+.contact_info{
+    align-items: center;
+}
+
+aside{
+    background-color: yellow;
+    padding: 10px;
+    text-align: center;
 }
