@@ -164,6 +164,7 @@ table, tr, th, td{
 .article_pic{
     float: right;
     padding: 20px;
+    max-width: 30%;
 }
 
 section{
