@@ -29,6 +29,7 @@
 
 	#five_day_forcast{
 		display: block;
+		align-items: center;
 	}
 	
 	#weather_summary{
