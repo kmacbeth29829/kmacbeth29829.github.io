@@ -42,8 +42,16 @@
         <div class="grid">
             <h2 class="preston">Preston Idaho</h2>
             <section id="hero">
-                <img class="hero_pic" src="img/photo-of-grass-field-1227513.jpg" alt="image of sun">
+                <!-- <img class="hero_pic" src="img/photo-of-grass-field-1227513.jpg" alt="image of sun"> -->
                 <article id="weather_summary">
+                    <picture>
+                        <source srcset="img/cit230_image_franklinOriginal-medium.jpg" media="(max-width: 400;)">
+                        <source srcset= "img/cit230_image_franklinOriginal-medium.jpg"media="(max-width: 800;)">
+                        <source srcset="img/cit230_image_franklinOriginal-medium.jpg" media="(min-width: 801;)">
+                        <img src="img/cit230_image_franklinOriginal-small.jpg" alt="image of field">
+
+
+                    </picture>
                     <h1>Weather Summary</h1>
                     <div>
                         <span>Current Temperature: </span>
@@ -90,7 +98,7 @@
                 </table>
             </section>
             <section id="article">
-                
+
                 <img class="article_pic" src="img/man fishing.jpg" alt="image of sun">
                 <p>PRESTON — On August 28, Idaho Fish and Game personnel relocated fish from Treasureton Reservoir to
                     other water bodies in the Preston area. <br>
