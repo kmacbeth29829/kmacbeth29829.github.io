@@ -127,12 +127,13 @@ h2{
 } */
 
 #five_day_forcast{
-    background-color: #23395b;
     padding: 1em;
     margin: 10px;
     color: #E8f7ee;
+}
 
-
+.forcast_header{
+    color: black;
 }
 
 .navigation{
@@ -155,27 +156,33 @@ h2{
 #weather_summary{
     position: relative;
     bottom: 8em;
-    border: 2px solid white;
+    border: 2px solid black;
     padding: 10px;
-    /* margin: 10px; */
+    margin: 10px;
     max-width: 300px;
-    color: white;
+    /* color: white; */
 }
 table{
-    text-align: center;
+    width: 100%;
+    background-color: #23395b;
+    border-radius: 2%;
+    padding: 8px;
 }
 
 table, tr, th, td{
     border: 1px solid white;
     border-collapse: collapse;
-    padding: 5px;
+    padding: 10px;
+    text-align: center;
+
     
 }
 
 .hero_pic{
     width: 100%;
-    margin-bottom: -100px;
+    margin: 0;
     /* margin: auto; */
+    margin-bottom: -150px;
 }
 
 .article_pic{
@@ -205,12 +212,7 @@ aside{
     padding: 10px;
     text-align: center;
 }
-
 .contact_info{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-iframe{
-    grid-column: 1/2;
+    flex: display;
+    flex-direction: row;
 }

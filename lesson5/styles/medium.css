@@ -32,10 +32,9 @@
 		align-items: center;
 	}
 	
-	#weather_summary{
-		margin-bottom: auto;
+    #weather_summary{
+		bottom: 30em;
 	}
-
 
 	
 	
