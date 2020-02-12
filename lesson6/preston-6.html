@@ -44,14 +44,23 @@
             <section id="hero">
                 <!-- <img class="hero_pic" src="img/photo-of-grass-field-1227513.jpg" alt="image of sun"> -->
                 <article id="weather_summary">
-                    <picture>
-                        <source srcset="img/cit230_image_franklinOriginal-medium.jpg" media="(max-width: 400;)">
-                        <source srcset= "img/cit230_image_franklinOriginal-medium.jpg"media="(max-width: 800;)">
-                        <source srcset="img/cit230_image_franklinOriginal-medium.jpg" media="(min-width: 801;)">
-                        <img src="img/cit230_image_franklinOriginal-small.jpg" alt="image of field">
+                    <!-- <picture>
+                        <source srcset="img/smalljpg" media="(max-width: 400)">
+                        <source srcset= "img/medium.jpg"media="(max-width: 800)">
+                        <source srcset="img/large.jpg" media="(min-width: 801)">
+                        <img src="img/small.jpg" alt="image of field">
 
 
-                    </picture>
+                    </picture> -->
+
+                    <img src="img/small.jpg" alt="image of field"
+                        srcset="img/small.jpg 400w,
+                        img/medium.jpg 800w,
+                        img/large.jpg 1200w">
+                    
+                    
+                    >
+
                     <h1>Weather Summary</h1>
                     <div>
                         <span>Current Temperature: </span>
