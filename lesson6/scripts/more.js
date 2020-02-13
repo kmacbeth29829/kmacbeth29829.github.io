@@ -13,3 +13,11 @@ else{
     aside.style.display = 'none';
 }
 
+WebFont.load({
+    google: {
+      families: [
+         'Lato','|Noto+Sans+JP'
+      ]
+    }
+  });
+
