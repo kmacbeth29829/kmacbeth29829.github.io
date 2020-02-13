@@ -55,5 +55,13 @@ document.getElementById("lastModified").textContent = document.lastModified;
 // }
 
 
+WebFont.load({
+    google: {
+      families: [
+         'Lato','|Noto+Sans+JP'
+      ]
+    }
+  });
+
 
 
