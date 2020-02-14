@@ -43,24 +43,15 @@
             <h2 class="preston">Preston Idaho</h2>
             <section id="hero">
                 <!-- <img class="hero_pic" src="img/photo-of-grass-field-1227513.jpg" alt="image of sun"> -->
+                <picture class="pictures">
+                    <source srcset="img/small.jpg" media="(max-width: 400px)">
+                    <source srcset="img/medium.jpg" media="(max-width: 800px)">
+                    <source srcset="img/large.jpg" media="(min-width: 801px)">
+                    <img src="img/small.jpg" alt="image of field">
+
+
+                </picture>
                 <article id="weather_summary">
-                    <!-- <picture>
-                        <source srcset="img/smalljpg" media="(max-width: 400)">
-                        <source srcset= "img/medium.jpg"media="(max-width: 800)">
-                        <source srcset="img/large.jpg" media="(min-width: 801)">
-                        <img src="img/small.jpg" alt="image of field">
-
-
-                    </picture> -->
-
-                    <img src="img/small.jpg" alt="image of field"
-                        srcset="img/small.jpg 400w,
-                        img/medium.jpg 800w,
-                        img/large.jpg 1200w">
-                    
-                    
-                    >
-
                     <h1>Weather Summary</h1>
                     <div>
                         <span>Current Temperature: </span>
@@ -71,8 +62,8 @@
                         <span id="wind_speed"></span>
                     </div>
                     <div>
-                        <span>humidity: </span>
-                        <span id="humidity"></span>
+                        <span>Wind Chill: </span>
+                        <span id="wind_chill"></span>
                     </div>
                 </article>
             </section>
@@ -162,8 +153,9 @@
     <script src="scripts/currentDate.js"></script>
     <script src="scripts/menu.js"></script>
     <script src="scripts/more.js"></script>
-    <script src="scripts/windchill.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> -->
+    <script src="scripts/web_loader.js"></script>
+
 
 </body>
 
