@@ -33,6 +33,10 @@ body {
     background-color: #E8f7ee;
 }
 
+picture img {
+    width: 90%;
+}
+
 ul li a {
     text-decoration: none;
     color: black;
@@ -79,12 +83,12 @@ h2 {
     text-align: center;
 }
 
-iframe {
+/* iframe {
     display: block;
     margin-left: 10%;
     width: 70%;
     align-items: center;
-}
+} */
 
 
 table {
@@ -105,7 +109,7 @@ td {
 }
 
 section {
-    margin: 30px;
+    /* margin: 30px; */
 }
 
 
@@ -148,36 +152,52 @@ aside {
 }
 
 .contact_info {
-    display: inline-flex;
+    /* display: inline-flex; */
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
 }
 
-.pictures{
-    width: 50%;
-}
+
 
 .picture-one{
-    width: 40%;
+    width: 20%;
 
 }
 
 
 /* id selectors */
-#hero {
-    /* overflow: hidden; */
-    max-width: 20%;
+/* #hero {
+    overflow: hidden; */ 
+    /* max-width: 20%;
 }
-
+/* 
 #weather_summary {
     bottom: 8em;
     border: 2px solid black;
     padding: 10px;
     margin: 10px;
     max-width: 300px;
-}
+} */
 #five_day_forcast {
     padding: 1em;
     margin: 10px;
     color: #E8f7ee;
+}
+
+#weather_summary {
+    border: 2px solid black;
+    background-color: white;
+    font-size: 10pt;
+    padding: 5px;
+    position: relative;
+    top: 150px;
+    left: 15px;
+    width: 50%;
+    opacity: 0.75;
+}
+#weather_summary h1 {
+    font-size: 10pt;
 }
 
 
