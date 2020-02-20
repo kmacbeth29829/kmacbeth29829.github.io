@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Preston Town Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.jpg">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+
+<body>
+    <aside>
+        <p>
+            Saturday = Preston Pancakes in the Park! 9:00 am Saturday at the city park
+        </p>
+    </aside>
+    <header>
+        <img class="picture-one" src="img/blackbluelogo.jpg" alt="white logo">
+        <div>
+            <h1>Adventure Weather</h1>
+            <h2>One goal One passion</h2>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation responsive">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li><a href="styles/preston-4.html"> Home</a></li>
+            <li><a href="#"> Preston</a></li>
+            <li><a href="#"> Soda Springs</a></li>
+            <li><a href="#"> Fish Haven</a></li>
+            <li><a href="#"> Storm Center</a></li>
+            <li><a href="#"> Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="grid">
+            <h2 class="preston">Preston Idaho</h2>
+            <section id="hero">
+                <img class="hero_pic" src="img/photo-of-grass-field-1227513.jpg" alt="image of sun">
+                <article id="weather_summary">
+                    <h1>Weather Summary</h1>
+                    <div>
+                        <span>Current Temperature: </span>
+                        <span id="temp"></span>
+                    </div>
+                    <div>
+                        <span>Wind Speed: </span>
+                        <span id="wind_speed"></span>
+                    </div>
+                    <div>
+                        <span>humidity: </span>
+                        <span id="humidity"></span>
+                    </div>
+                </article>
+            </section>
+            <section id="five_day_forcast">
+                <h2 class="forcast_header">Five Day Forcast</h2>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th id="day1">Day 1 </th>
+                            <th id="day2">Day 2 </th>
+                            <th id="day3">Day 3 </th>
+                            <th id="day4">Day 4 </th>
+                            <th id="day5">Day 5 </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="temp1">50&deg;</td>
+                            <td id="temp2">100&deg;</td>
+                            <td id="temp3">78&deg;</td>
+                            <td id="temp4">22&deg;</td>
+                            <td id="temp5">-15&deg;</td>
+                        </tr>
+                        <tr>
+                            <td id="temp1">50&deg;</td>
+                            <td id="temp2">100&deg;</td>
+                            <td id="temp3">78&deg;</td>
+                            <td id="temp4">22&deg;</td>
+                            <td id="temp5">-15&deg;</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section id="article">
+                
+                <img class="article_pic" src="img/man fishing.jpg" alt="image of sun">
+                <p>PRESTON — On August 28, Idaho Fish and Game personnel relocated fish from Treasureton Reservoir to
+                    other water bodies in the Preston area. <br>
+                    <br>
+
+                    Using electrofishing equipment, crews were able to relocate 37 rainbow trout, ranging in size from
+                    15” to 24”, to Lamont Reservoir. Additional efforts to relocate fish may occur in the future when
+                    reservoir water temperature becomes more favorable. <br>
+                    <br>
+
+                    Fish and Game issued a salvage order on Treasureton Reservoir on August 18 because the irrigation
+                    company which manages the reservoir needs to conduct repairs to the dam. Completing the repairs
+                    requires draining the reservoir, and once conditions become unsuitable, fish will not survive.</p>
+                <p>
+                    It should be noted that electrofishing is not allowed by the public as a means for catching fish. It
+                    is a scientific tool typically used by authorized agencies to survey fish populations or collect
+                    fish for purposes such as relocation.
+                    <br>
+
+                    It is also unlawful for the public to transport and release live fish.
+
+                    Until November 1, the Treasureton Salvage Order remains in effect. During this timeline, the public
+                    can take fish from Treasureton Reservoir using the following guidelines:
+
+                    Fish may be taken by any method except use of firearms, explosives, chemicals, and electric
+                    current. Fishing with bait during the salvage timeline is allowed.
+
+                    All bag, size, and number limits are suspended.
+
+                    A valid Idaho fishing license is still required in accordance with Section 36-401, Idaho Code.
+                </p>
+            </section>
+            <section id="contact">
+                <h2>Contact</h2>
+                <div class="contact_info">
+                    <address>
+                        123 this street <br>
+                        Preston Id <br>
+                        243-232-3432 <br>
+                        preston.town@gmail.com <br>
+                    </address>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.77385344583!2d-111.9153444655827!3d42.09974162638001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1581010153031!5m2!1sen!2sus"
+                        width="60%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>&copy Adventure Weather | Kenna Macbeth | <span id="currentDate"></span> </p>
+    </footer>
+    <script src="scripts/currentDate.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/more.js"></script>
+</body>
+
+</html>
