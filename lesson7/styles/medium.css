@@ -36,6 +36,10 @@
 		bottom: 30em;
 	}
 
+	.grid{
+		grid-template-columns: 1fr 1fr;
+	}
+
 	
 	
 }
