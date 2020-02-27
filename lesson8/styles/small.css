@@ -1,4 +1,4 @@
-/* html selectors */
+/* ----------------body--------------- */
 body,
 html,
 header {
@@ -6,6 +6,36 @@ header {
     padding: 0;
 }
 
+body {
+    background-color: #E8f7ee;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: 'Noto Sans JP';
+}
+
+h2 {
+    text-align: center;
+
+}
+/* -------------------header--------------------- */
+.picture-one {
+    width: 20%;
+}
+
+header {
+    align-items: center;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato';
+    justify-content: center;
+
+}
+
+/* -----------------navigation------------- */
 ul {
     list-style: none;
     background-color: #fffd98;
@@ -28,58 +58,16 @@ a:active {
     color: white;
 }
 
-body {
-    background-color: #E8f7ee;
-}
 
 ul li a {
     text-decoration: none;
     color: black;
     font-family: 'Lato';
     align-items: center;
-
 }
 
 .navigation li:first-child {
     display: block;
-}
-
-.picture-one {
-    width: 20%;
-}
-
-header {
-    align-items: center;
-    background-color: cadetblue;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Lato';
-    justify-content: center;
-
-}
-
-footer {
-    background-color: cadetblue;
-    font-family: 'Lato';
-    padding: 1em;
-    text-align: center;
-}
-
-
-main {
-    max-width: 1300px;
-    margin: 0 auto;
-    font-family: 'Lato';
-}
-
-h1 {
-    text-align: center;
-    font-family: 'Noto Sans JP';
-}
-
-h2 {
-    text-align: center;
-
 }
 
 .navigation {
@@ -94,36 +82,54 @@ h2 {
     display: none;
 }
 
-section {
-    margin: 30px;
-}
 
-.grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 15px;
-}
-
-picture img {
-    height: 300px;
-    width: 400px;
-    overflow: hidden;
-    transition: .5s ease;
-    backface-visibility: hidden;
-    opacity: 1;
-    display: block; 
+/* --------------------main------------------ */
+main {
+    max-width: 1300px;
+    margin: 0 auto;
+    font-family: 'Lato';
 }
 
 
-picture img[data-src] {
-    filter: blur(0.2em);
+/* --------------form------------------- */
+.flexly {
+	display: flex;
+	align-items: center;
 }
 
-picture img {
-    filter: blur(0em);
-    transition: filter 0.5s;
+#ratingvalue {
+	margin: 0 15px;
 }
 
-.title{
-    margin: 50px;
+input[type="text"]{
+    border: 1px red solid;
 }
+
+
+
+
+
+/* ----------------footer------------- */
+footer {
+    background-color: cadetblue;
+    font-family: 'Lato';
+    padding: 1em;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
