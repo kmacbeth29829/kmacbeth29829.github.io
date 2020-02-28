@@ -31,32 +31,38 @@
             <li><a href="#"> Soda Springs</a></li>
             <li><a href="#"> Fish Haven</a></li>
             <li><a href="#"> Storm Center</a></li>
-            <li><a href="#"> Gallery</a></li>
+            <li><a href="lesson7/gallery7.html"> Gallery</a></li>
         </ul>
     </nav>
     <main>
-        <form  action="lesson8/thanks.html" method="POST">
-            <div>
-                <label for="fullName">Full Name:</label>
+        <h1>Storm Center</h1>
+        <form  action="lesson8/thanks.html" method="GET">
+            <fieldset>
+            <div class="top">
+                <h3>Report a storm</h3>
+                <label for="fullName">*Full Name:</label>
                 <input type="text" id="fullName" name="fullName" required>
             </div>
-            <div>
-                <label for="email">Email:</label>
+            <div class="top">
+                <label for="email">*Email:</label>
                 <input type="text" id="email" name="email" placeholder="example@gmail.com" required>
             </div>
-            <div>
-                <label for="phone">Phone:</label>
+            <div class="top">
+                <label for="phone">*Phone:</label>
                 <input type="tel" id="phone" name="phone" required>
             </div>
-            <div>
-                <label for="zipCode">ZipCode:</label>
+            <div class="top">
+                <label for="zipCode">*ZipCode:</label>
                 <input type="number" name="zipCode" id="zipCode" required>
             </div>
-            <div>
+            </fieldset>
+            <fieldset>
+            <div class="top">
+                <h3>Storm Info</h3>
                 <label for="date">Storm Date:</label>
                 <input type="date" name="date" id="name">
             </div>
-            <div>
+            <div class="top">
                 <label for="stormType">Storm Type:</label>
                 <input list="stormType">
 
@@ -68,11 +74,11 @@
                     <option value="Tornado">
                 </datalist>
             </div>
-            <div>
+            <div class="inline">
                 <label class="flexly" for="rating">Storm Severity 0-10 :
                     <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
                         oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                    <span id="ratingvalue">5</span>
+                    <span class="rating" id="ratingvalue">5</span>
                 </label>
 
                 <datalist id="tickmarks">
@@ -89,7 +95,7 @@
                     <option value="10">
                 </datalist>
             </div>
-            <div>
+            <div class="top">
                 <label for="region"></label>
                 <select id="region">
                     <option value="selectRegion"  selected disabled>Select Region</option>
@@ -98,7 +104,7 @@
                     <option value="fishHaven">Fish Haven</option>
                 </select>
             </div>
-            <div>
+            <div class="radio">
                 <p>User in danger level:</p>
                 <input type="radio" id="male" name="gender" value="male">
                 <label for="male">Yes</label><br>
@@ -107,13 +113,13 @@
                 <input type="radio" id="other" name="gender" value="other">
                 <label for="other">Maybe</label>
             </div>
-            <div>
-                <label for="textArea">Additional Information or Comments</label>
-                <textarea name="textArea" id="textArea" cols="30" rows="10"></textarea>
+            </fieldset>
+            <div class="text">
+                <h2>Additional Comments</h2>
+                <label for="textArea"> <textarea name="textArea" id="textArea" cols="30" rows="10"></textarea></label>
             </div>
-            <div>
-                <label for="submit"></label>
-                <input type="submit" id="submit" name="submit" value="Report Storm">
+            <div class="submit">
+                <label for="submit"><input type="submit" id="submit" name="submit" value="Report Storm"></label>
             </div>
 
 

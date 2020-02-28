@@ -18,8 +18,8 @@ h1 {
 
 h2 {
     text-align: center;
-
 }
+
 /* -------------------header--------------------- */
 .picture-one {
     width: 20%;
@@ -88,22 +88,53 @@ main {
     max-width: 1300px;
     margin: 0 auto;
     font-family: 'Lato';
+    
 }
 
 
 /* --------------form------------------- */
-.flexly {
-	display: flex;
-	align-items: center;
+
+form{
+    margin-left: 15em;
 }
 
-#ratingvalue {
-	margin: 0 15px;
+
+
+
+form fieldset{
+    margin: 2rem 0;
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    max-width: 300px;
 }
 
-input[type="text"]{
-    border: 1px red solid;
+div{
+    margin: 20px;
 }
+
+form input{
+    border-radius: .75em;
+    background-color: rgba(0,0,0,0.1);
+    padding: .75rem;
+    max-width: 300px;
+    display: block;
+}
+
+.text{
+    max-width: 300px;
+    text-align: center;
+}
+
+.radio input{
+    display: inline;
+}
+
+.inline{
+    display: inline;
+}
+
+
 
 
 
