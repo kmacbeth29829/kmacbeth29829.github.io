@@ -8,6 +8,11 @@ header {
 
 body {
     background-color: #E8f7ee;
+    min-width: 300px;
+    background-image: url(/lesson8/img/lightning-and-gray-clouds-1162251.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
 }
 
 
@@ -88,49 +93,64 @@ main {
     max-width: 1300px;
     margin: 0 auto;
     font-family: 'Lato';
-    
+
 }
 
 
 /* --------------form------------------- */
 
-form{
+form {
     margin-left: 15em;
+    color: white;
 }
 
+form input{
+    color: white;
+}
+
+h2{
+    color: black;
+}
+
+/* .submit{
+    background-color:#31242a;
+} */
 
 
 
-form fieldset{
+
+form fieldset {
     margin: 2rem 0;
     border: 1px solid #445ba9;
+    background-color: #31242a;
     border-radius: 10px;
     padding: .5rem 2%;
     max-width: 300px;
 }
 
-div{
+div {
     margin: 20px;
 }
 
-form input{
+form input {
     border-radius: .75em;
-    background-color: rgba(0,0,0,0.1);
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    background-color: #31242a;
     padding: .75rem;
     max-width: 300px;
     display: block;
 }
 
-.text{
+.text {
     max-width: 300px;
     text-align: center;
 }
 
-.radio input{
+.radio input {
     display: inline;
 }
 
-.inline{
+.inline {
     display: inline;
 }
 
@@ -147,20 +167,3 @@ footer {
     padding: 1em;
     text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

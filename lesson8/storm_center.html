@@ -26,7 +26,7 @@
     <nav>
         <ul class="navigation">
             <li><a class="ham" href="#">&#9776; Menu</a></li>
-            <li><a href="styles/preston-4.html"> Home</a></li>
+            <li><a href="lesson4/preston-4.html"> Home</a></li>
             <li><a href="#"> Preston</a></li>
             <li><a href="#"> Soda Springs</a></li>
             <li><a href="#"> Fish Haven</a></li>
@@ -36,12 +36,12 @@
     </nav>
     <main>
         <h1>Storm Center</h1>
-        <form  action="lesson8/thanks.html" method="GET">
+        <form  action="thanks.html" method="GET">
             <fieldset>
             <div class="top">
                 <h3>Report a storm</h3>
                 <label for="fullName">*Full Name:</label>
-                <input type="text" id="fullName" name="fullName" required>
+                <input type="text" id="fullName" name="fullName" minlength="5" pattern="[A-Za-z]{5}" required>
             </div>
             <div class="top">
                 <label for="email">*Email:</label>
