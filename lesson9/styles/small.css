@@ -123,6 +123,13 @@ h2{
     color: #E8f7ee;
 } 
 
+#city{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .navigation{
     display: flex;
     flex-direction: column;
