@@ -11,13 +11,13 @@ fetch('https://byui-cit230.github.io/weather/data/towndata.json')
                     document.querySelector(`#fishHavenMotto`).textContent = town.motto;
                     document.querySelector(`#fishHavenYearFounded`).textContent = `Year Founded: ${town.yearFounded}`;
                     document.querySelector(`#fishHavenPopulation`).textContent = `Population: ${town.currentPopulation}`;
-                    document.querySelector(`#fishHavenAnnualRainfall`).textContent = `Annual Rainfall: ${town.annualRainfall}`;
-                    document.querySelector('#fishHavenImage').setAttribute('src', `images/ ${town.photo}`);
-                    document.querySelector('#fishHavenImage').setAttribute('alt', town.name);
+                    document.querySelector(`#fishHavenAverageRainFall`).textContent = `Average Rainfall: ${town.averageRainfall}`;
+                    document.querySelector(`#fishHavenImage`).setAttribute('src', `img/sodasprings.jpg ${town.photo}`);
+                    document.querySelector(`#fishHavenImage`).setAttribute('alt', town.name);
 
-                } else if (town.name === 'Preston'){
-                } else if (town.name === 'Soda Springs'){
+                // } else if (town.name === 'Preston'){
 
+                // } else if (town.name === 'Soda Springs'{
 
 
                 }
