@@ -38,13 +38,9 @@ ul li a{
 
 .navigation li:first-child {
     display: block;
-    /* text-align: center;
-    align-items: center; */
 }
 
-/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
-  <ul class="navigation responsive">
-  */
+
 
 
 .picture-one{
@@ -86,42 +82,14 @@ h2{
 }
 
 /* class selectors */
-
- #hero{
-    padding: 1em;
-    margin: 10px;
-    background-color: #23395b;
-    color: #E8f7ee;
-} 
- 
-#preston{
-    background-color: #23395b;
-    padding: 1em;
-    margin: 10px;
-    color: #E8f7ee;
-
-}
-#five_day_forcast{
-    background-color: #23395b;
-    padding: 1em;
-    margin: 10px;
-    color: #E8f7ee;
-
-}
-#contact{
-    background-color: #23395b;
-    padding: 1em;
-    margin: 10px;
-    color: #E8f7ee;
-
+body{
+    min-width: 300px;
+    background-image: url(/lesson9/img/background2.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
 }
 
-#article{
-    background-color: #23395b;
-    padding: 1em;
-    margin: 10px;
-    color: #E8f7ee;
-} 
 
 #city{
     display: flex;
@@ -129,6 +97,21 @@ h2{
     justify-content: space-around;
     align-items: center;
 }
+
+article{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 30px;
+    background-color: #23395B;
+    height: 300px;
+    width: 400px;
+    overflow: hidden;
+    color: #FCF7F8;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
 
 .navigation{
     display: flex;
@@ -142,12 +125,6 @@ h2{
 	display: none;
 }
 
-.preston{
-    text-align: center;
-    padding: 10px;
-}
 
-.hero_pic{
-    width: 50%;
-}
+
 
