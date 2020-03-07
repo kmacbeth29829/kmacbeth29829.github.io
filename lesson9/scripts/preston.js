@@ -12,7 +12,7 @@ fetch('https://byui-cit230.github.io/weather/data/towndata.json')
                     document.querySelector(`#fishHavenYearFounded`).textContent = `Year Founded: ${town.yearFounded}`;
                     document.querySelector(`#fishHavenPopulation`).textContent = `Population: ${town.currentPopulation}`;
                     document.querySelector(`#fishHavenAverageRainFall`).textContent = `Average Rainfall: ${town.averageRainfall}`;
-                    document.querySelector(`#fishHavenImage`).setAttribute('src', `img/sodasprings.jpg ${town.photo}`);
+                    document.querySelector(`#fishHavenImage`).setAttribute('src', `img/${town.photo}`);
                     document.querySelector(`#fishHavenImage`).setAttribute('alt', town.name);
 
                 } else if (town.name === 'Preston'){
@@ -21,7 +21,7 @@ fetch('https://byui-cit230.github.io/weather/data/towndata.json')
                     document.querySelector(`#prestonYearFounded`).textContent = `Year Founded: ${town.yearFounded}`;
                     document.querySelector(`#prestonPopulation`).textContent = `Population: ${town.currentPopulation}`;
                     document.querySelector(`#prestonAnnualRainFall`).textContent = `Average Rainfall: ${town.averageRainfall}`;
-                    document.querySelector(`#prestonImage`).setAttribute('src', `img/sodasprings.jpg ${town.photo}`);
+                    document.querySelector(`#prestonImage`).setAttribute('src', `img/${town.photo}`);
                     document.querySelector(`#prestonImage`).setAttribute('alt', town.name);
 
 
@@ -32,7 +32,7 @@ fetch('https://byui-cit230.github.io/weather/data/towndata.json')
                     document.querySelector(`#sodaSpringsYearFounded`).textContent = `Year Founded: ${town.yearFounded}`;
                     document.querySelector(`#sodaSpringsPopulation`).textContent = `Population: ${town.currentPopulation}`;
                     document.querySelector(`#sodaSpringsAnnualRainFall`).textContent = `Average Rainfall: ${town.averageRainfall}`;
-                    document.querySelector(`#sodaSpringsImage`).setAttribute('src', `img/sodasprings.jpg ${town.photo}`);
+                    document.querySelector(`#sodaSpringsImage`).setAttribute('src', `img/${town.photo}`);
                     document.querySelector(`#sodaSpringsImage`).setAttribute('alt', town.name);
 
 
