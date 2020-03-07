@@ -8,8 +8,6 @@ ul {
     background-color:#fffd98;
     margin: 0;
     padding: 0;
-    
-    /* margin-top: -20px; */
 
 }
 a:link, a:visited {
@@ -82,18 +80,11 @@ h2{
 }
 
 /* class selectors */
-/* body{
-    min-width: 300px;
-    background-image: url(/lesson9/img/background2.jpg);
-    background-size: cover;
-    background-position: center bottom;
-    background-attachment: fixed;
-} */
 
 
 #city{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
     justify-content: space-around;
     align-items: center;
 }
@@ -104,8 +95,7 @@ article{
     margin: 30px;
     background-color: #23395B;
     height: 600px;
-    width: 500px;
-    /* overflow: hidden; */
+    width: 300px;
     color: #FCF7F8;
     border-radius: 5px;
     text-align: center;
