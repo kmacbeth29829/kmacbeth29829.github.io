@@ -47,16 +47,12 @@ fetch(apiURL2)
                             .textContent - dayOfWeek
                         counter++;
 
-                        document.getElementById(`temp${counter}`)
-                            .textContent - 
+                        document.getElementById(`temp${counter}`) = forecast.main.temp ;
 
                     }
                     
                 }
             )
-
-        //     if (list.clouds.dt_txt === '18:00:00');
-        // )
     });
 
 
