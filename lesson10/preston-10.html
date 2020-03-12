@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -46,17 +45,21 @@
                 <article id="weather_summary">
                     <h1>Weather Summary</h1>
                     <div>
+                        <span id="weather"></span>
+                        <img id="weather_image" src="" alt="">
+                    </div>
+                    <div>
                         <span>Currently: </span>
-                        <span id="current"></span>
+                        <span id="currently"></span>
                     </div>
                     <div>
                         <span>High: </span>
                         <span id="high"></span>
                     </div>
-                    <!-- <div>
+                    <div>
                         <span>Wind Chill: </span>
-                        <span id="wind-chill"></span>
-                    </div> -->
+                        <span id="wind_chill"></span>
+                    </div>
                     <div>
                         <span>Wind Speed: </span>
                         <span id="wind_speed"></span>
@@ -154,6 +157,7 @@
     <script src="scripts/menu.js"></script>
     <script src="scripts/more.js"></script>
     <script src="scripts/prestonAPI.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 
 </html>
