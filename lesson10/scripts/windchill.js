@@ -22,7 +22,7 @@ fetch(apiURL)
         }
     )
 
-    let daysOfWeek = [
+    const daysOfWeek = [
         "Sunday",
         "Monday",
         "Tuesday",
@@ -31,8 +31,8 @@ fetch(apiURL)
         "Friday",
         "Saturday"
     ];
-    const apiURL2 ="api.openweathermap.org/data/2.5/forecast?id=5604473&appid=141ca69a37402276d264debd535055f8&units=imperial";
-fetch(apiURL2)
+ const apiURLForecast ="api.openweathermap.org/data/2.5/forecast?id=5604473&appid=141ca69a37402276d264debd535055f8&units=imperial";
+fetch(apiURLForecast)
     .then(response => response.json())
     .then(
         jsObject => {
@@ -44,7 +44,7 @@ fetch(apiURL2)
                         let dayOfWeek = daysOfWeek[forecastDate.getDay()];
                         console.log(dayOfWeek);
                         document.getElementById(`#day${counter}`)
-                            .textContent - dayOfWeek
+                            .textContent = dayOfWeek
                         counter++;
 
                         document.getElementById(`temp${counter}`) = forecast.main.temp ;
