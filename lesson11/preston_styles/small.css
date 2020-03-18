@@ -8,6 +8,8 @@ ul {
     background-color:#fffd98;
     margin: 0;
     padding: 0;
+    
+    /* margin-top: -20px; */
 
 }
 a:link, a:visited {
@@ -36,9 +38,13 @@ ul li a{
 
 .navigation li:first-child {
     display: block;
+    /* text-align: center;
+    align-items: center; */
 }
 
-
+/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+  <ul class="navigation responsive">
+  */
 
 
 .picture-one{
@@ -63,7 +69,7 @@ footer{
 
 
 main{
-    max-width: 65%;
+    max-width: 1080px;
     margin: 0 auto;
     font-family: 'Lato';
 }
@@ -79,46 +85,56 @@ h2{
 
 }
 
+
+
 /* class selectors */
 
-
-#city{
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: space-around;
-    align-items: center;
+/* #hero{
+    background-color: #23395b;
+    padding: 1em;
+    margin: 10px;
+    color: #E8f7ee;
+    
 }
 
-article{
-    border: 2px solid black;
-    padding: 10px;
-    margin: 30px;
-    background-color: #23395B;
-    height: 600px;
-    width: 300px;
-    color: #FCF7F8;
-    border-radius: 5px;
-    text-align: center;
-}
-
-#fishHavenImage{
-    height: 300px;
-    width: 275px;
-    margin-top: 18px;
+#preston{
+    background-color: #23395b;
+    padding: 1em;
+    margin: 10px;
+    color: #E8f7ee;
 
 }
+#five_day_forcast{
+    background-color: #23395b;
+    padding: 1em;
+    margin: 10px;
+    color: #E8f7ee;
 
-#sodaSpringsImage{
-    height: 300px;
-    width: 275px;
+}
+#contact{
+    background-color: #23395b;
+    padding: 1em;
+    margin: 10px;
+    color: #E8f7ee;
+
 }
 
-#prestonImage{
-    margin-top: 18px;
-    height: 300px;
-    width: 275px;
+#article{
+    background-color: #23395b;
+    padding: 1em;
+    margin: 10px;
+    color: #E8f7ee;
+} */
+
+#five_day_forcast{
+    padding: 1em;
+    margin: 10px;
+    color: #E8f7ee;
 }
 
+.forcast_header{
+    color: black;
+}
 
 .navigation{
     display: flex;
@@ -132,6 +148,80 @@ article{
 	display: none;
 }
 
+.preston{
+    text-align: center;
+    padding: 10px;
+}
 
+#weather_summary{
+    position: relative;
+    bottom: 8em;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    max-width: 300px;
+    /* color: white; */
+}
+table{
+    width: 100%;
+    background-color: #23395b;
+    border-radius: 2%;
+    padding: 8px;
+}
+
+table, tr, th, td{
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+
+    
+}
+
+.hero_pic{
+    width: 100%;
+    margin: 0;
+    /* margin: auto; */
+    margin-bottom: -150px;
+}
+
+.article_pic{
+    float: right;
+    padding: 20px;
+    max-width: 60%;
+}
+
+section{
+    margin: 30px;
+}
+
+/* #weather_summary{
+    border: 2px solid black;
+    padding: 15px;
+    margin: 10px;
+} */
+
+
+
+/* .contact_info{
+    align-items: center;
+} */
+
+aside{
+    background-color: yellow;
+    padding: 10px;
+    text-align: center;
+}
+.contact_info{
+    display: inline-flex;
+    border: 2px solid black;
+}
+
+iframe{
+    display: block;
+    margin-left: 10%;
+    width: 70%;
+    align-items: center;
+}
 
 
