@@ -1,0 +1,137 @@
+/* html selectors */
+body, html, header{
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+    background-color:#fffd98;
+    margin: 0;
+    padding: 0;
+
+}
+a:link, a:visited {
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+  }
+  
+a:hover, a:active {
+    background-color: #605F5E;
+    color: white;
+}
+body{
+    background-color: #E8f7ee;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Lato';
+    align-items: center;
+    
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+
+
+
+.picture-one{
+    width: 20%;
+}
+header{
+    align-items: center;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato';
+    justify-content: center;
+
+}
+
+footer{
+    background-color: cadetblue;
+    font-family: 'Lato';
+    padding: 1em;
+    text-align: center;
+}
+
+
+main{
+    max-width: 65%;
+    margin: 0 auto;
+    font-family: 'Lato';
+}
+
+h1{
+    text-align: center;
+    font-family: 'Noto Sans JP';
+    /* z-index: 1; */
+}
+
+h2{
+    text-align: center;
+
+}
+
+/* class selectors */
+
+
+#city{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-around;
+    align-items: center;
+}
+
+article{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 30px;
+    background-color: #23395B;
+    height: 600px;
+    width: 300px;
+    color: #FCF7F8;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#fishHavenImage{
+    height: 300px;
+    width: 275px;
+    margin-top: 18px;
+
+}
+
+#sodaSpringsImage{
+    height: 300px;
+    width: 275px;
+}
+
+#prestonImage{
+    margin-top: 18px;
+    height: 300px;
+    width: 275px;
+}
+
+
+.navigation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    display: block;
+}
+
+.responsive li {
+	display: none;
+}
+
+
+
+
