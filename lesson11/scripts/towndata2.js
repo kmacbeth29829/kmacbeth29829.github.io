@@ -4,7 +4,7 @@ fetch('https://byui-cit230.github.io/weather/data/towndata.json')
     })
     .then(
         (result) => {
-            const towns = result.towns[0];
+            const towns = result.towns[2];
             towns.events.forEach(
                 event => {
                     let li = document.createElement('li')
