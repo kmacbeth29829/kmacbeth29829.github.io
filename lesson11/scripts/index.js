@@ -24,8 +24,6 @@ fetch('https://byui-cit230.github.io/weather/data/towndata.json')
                     document.querySelector(`#prestonImage`).setAttribute('src', `img/${town.photo}`);
                     document.querySelector(`#prestonImage`).setAttribute('alt', town.name);
 
-
-
                 } else if (town.name === 'Soda Springs'){
                     document.querySelector('#sodasprings').textContent = town.name;
                     document.querySelector(`#sodaSpringsMotto`).textContent = town.motto;
