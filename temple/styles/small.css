@@ -1,0 +1,36 @@
+
+header{
+    background-color: #293C32;
+    padding: 2.5em;
+    color: white;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1, h2, h3 {
+   text-align: center;
+   font-family: 'Open Sans';
+   margin: 40px;
+}
+
+p{
+    font-family: 'Quicksand';
+    text-align: center;
+    margin: 40px;
+    
+}
+.picture{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  border: 2px solid black;
+}
+
+section{
+    background-color: #7D938A;
+    max-width: 1000px;
+    padding: 40px;
+    align-items: center;
+    margin: auto;
+}
