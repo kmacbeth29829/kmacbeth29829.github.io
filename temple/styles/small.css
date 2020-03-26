@@ -1,37 +1,87 @@
-
-header{
-    background-color: #293C32;
-    padding: 2.5em;
-    color: white;
-    max-width: 1000px;
-    margin: auto;
-}
-
-h1, h2, h3 {
-   text-align: center;
-   font-family: 'Open Sans';
-   margin: 40px;
-}
-
-p{
-    font-family: 'Quicksand';
-    text-align: center;
-    margin: 40px;
-    font-size: larger;
+/* --------------- header ------------- */
+li {
+    float: right;   
+    padding: 40px;
+    margin-bottom: 6em;
     
 }
-.picture{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-  border: 2px solid black;
+ul li a{
+    color: White;
+    font-family: 'Quicksand';
+    font-size: larger;
+    text-decoration: none;
+
+}
+ul{
+    list-style: none;
 }
 
-section{
-    background-color: #7D938A;
-    max-width: 1000px;
-    padding: 40px;
-    align-items: center;
-    margin: auto;
+header{
+    display: block;
 }
+  
+a:hover {
+    text-decoration: underline;
+  }
+  
+a:active {
+    text-decoration: underline;
+  }
+
+  .title{
+      padding: 40px;
+      /* margin-top: 30px; */
+  }
+
+
+
+/* ----------------- body ------------------ */
+body{
+    background-color: #293C32;
+    color: white;
+    font-family: 'Quicksand';
+}
+
+/* ----------------main------------------- */
+.motto{
+    font-weight: bolder;
+    padding: 10px;
+    font-size: 3em;
+    margin-left: 25px;
+}
+
+.landscape{
+    width: 90%;
+    padding: 4.5em;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.image-1{
+    grid-row: 2/3 ;
+    width: 30%;
+}
+
+.image-2{
+    grid-row: 1/2 ;
+    width: 30%;
+}
+
+.paragraph-1{
+    grid-row: 1/2;
+    margin: 4em;
+    padding: 2em;
+}
+
+.paragraph-2{
+    grid-row: 2/3;
+    margin: 4em;
+
+}
+
+
+
+/* --------------------footer------------------- */
