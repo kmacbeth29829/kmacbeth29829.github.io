@@ -5,14 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="shortcut icon" href="img/favicon-32x32.png">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/normalize.css">
 </head>
 
 <body>
     <header>
-        <nav>
-            <ul>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
                 <li> <a href="#">Home</a></li>
                 <li> <a href="#">Temples</a></li>
                 <li> <a href="#">Reservation</a></li>
@@ -21,42 +24,69 @@
             </ul>
         </nav>
         <h1 class="title">Temple Inn and Suites</h1>
+        <img src="img/favicon-32x32.png" alt=" favicon">
     </header>
     <main>
         <p class="motto"> Let us help you <br>
             Come unto Christ </p>
+            <img class="landscape" src="img/landscape.jpg" alt="landscape">
+            <div class="flip-box">
+                <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                    <img src="img/temple1.jpg" alt="temple" style="width:600px;height:400px">
+                  </div>
+                  <div class="flip-box-back">
+                    <h2>Boston Massachusettes Temple</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam voluptates, quam optio inventore
+                        nisi
+                        voluptatem harum placeat autem culpa porro debitis facere ut voluptas, in rerum explicabo fuga totam
+                        consequuntur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam velit laborum omnis
+                        sint,
+                        minus aliquid ea ipsa quisquam id sed debitis. Laudantium, impedit! Est eos, quam porro vero
+                        voluptatum
+                        dolorem!</p>
+                  </div>
+                </div>
+              </div>
 
-        <img class="landscape" src="img/landscape.jpg" alt="landscape">
-            <div class="grid">
-        <section class="section-1">
-            <p  class="paragraph-1">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam voluptates, quam optio inventore nisi
-                voluptatem harum placeat autem culpa porro debitis facere ut voluptas, in rerum explicabo fuga totam
-                consequuntur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam velit laborum omnis sint,
-                minus aliquid ea ipsa quisquam id sed debitis. Laudantium, impedit! Est eos, quam porro vero voluptatum
-                dolorem!
-            </p>
-            <img class="image-2" src="img/temple1.jpg" alt="temple">
-        </section>
-        <section class="section-2">
-            <img class="image-1" src="img/temple2.jpg" alt="temple">
-            <p class="paragraph-2">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam voluptates, quam optio inventore nisi
-                voluptatem harum placeat autem culpa porro debitis facere ut voluptas, in rerum explicabo fuga totam
-                consequuntur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam velit laborum omnis sint,
-                minus aliquid ea ipsa quisquam id sed debitis. Laudantium, impedit! Est eos, quam porro vero voluptatum
-                dolorem!
-            </p>
-        </section>
-        </div>
+        <!-- 
+                <div class="grid"></div>
+                <p class="paragraph-1">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam voluptates, quam optio inventore
+                    nisi
+                    voluptatem harum placeat autem culpa porro debitis facere ut voluptas, in rerum explicabo fuga totam
+                    consequuntur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam velit laborum omnis
+                    sint,
+                    minus aliquid ea ipsa quisquam id sed debitis. Laudantium, impedit! Est eos, quam porro vero
+                    voluptatum
+                    dolorem!
+                </p>
+                <img class="image-1" src="img/temple1.jpg" alt="temple">
+               
+                <p class="paragraph-2">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam voluptates, quam optio inventore
+                    nisi
+                    voluptatem harum placeat autem culpa porro debitis facere ut voluptas, in rerum explicabo fuga totam
+                    consequuntur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam velit laborum omnis
+                    sint,
+                    minus aliquid ea ipsa quisquam id sed debitis. Laudantium, impedit! Est eos, quam porro vero
+                    voluptatum
+                    dolorem!
+                </p>
+                <img class="image-2" src="img/temple2.jpg" alt="temple">
+            </div> -->
+       
         <div class="button">
-        <button >Reserve a Room</button>
+            <button>Reserve a Room</button>
         </div>
     </main>
     <footer>
-        <p>&copy Temple Inn and Suites  |  Kenna Macbeth  |  <span id="currentDate"></span> </p> 
-      </footer>
-      <script src="scripts/currentDate.js"></script>
+        <p>&copy Temple Inn and Suites | Kenna Macbeth | <span id="currentDate"></span> </p>
+    </footer>
+    <script src="scripts/currentDate.js"></script>
+    <!-- <script src="scripts/main.js"></script> -->
+    <script src="scripts/menu.js"></script>
+
     </footer>
 </body>
 
