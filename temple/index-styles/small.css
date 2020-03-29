@@ -25,12 +25,13 @@ a:active {
     text-decoration: underline;
 }
 
-.title{
+/* .title{
     text-align: center;
-}
+} */
 
-.motto{
-    text-align: center;
+.favicon{
+    margin-top: 60px;
+    width: 45px;
 }
 
 body{
@@ -67,6 +68,7 @@ body {
     font-weight: bolder;
     padding: 10px;
     font-size: 3em;
+    float: none;
 }
 
 .landscape {
@@ -81,11 +83,56 @@ body {
     width: 300px;
     height: 200px;
     perspective: 1000px; 
+    padding: 200px;
   }
   
-  /* This container is needed to position the front and back side */
   .flip-box-inner {
-    /* position: relative; */
+    width: 600px;
+    height: 400px;
+    margin-left: 10em;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    display: flex;
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
+  }
+  
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-box-back {
+    background-color: #293C32;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+
+  .flip-box2 {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    perspective: 1000px; 
+    padding: 150px;
+    text-align: center;
+    margin-left: 10px;
+  }
+  
+  .flip-box-inner2 {
     width: 600px;
     height: 400px;
     text-align: center;
@@ -93,33 +140,31 @@ body {
     transform-style: preserve-3d;
   }
   
-  /* Do an horizontal flip when you move the mouse over the flip box container */
-  .flip-box:hover .flip-box-inner {
+  .flip-box2:hover .flip-box-inner2 {
     transform: rotateY(180deg);
   }
   
-  /* Position the front and back side */
-  .flip-box-front, .flip-box-back {
+  .flip-box-front2, .flip-box-back2 {
     position: absolute;
     width: 600px;
     height: 400px;
-    -webkit-backface-visibility: hidden; /* Safari */
+    -webkit-backface-visibility: hidden; 
     backface-visibility: hidden;
+    margin-right : 0em;
   }
   
-  /* Style the front side (fallback if image is missing) */
-  .flip-box-front {
+  .flip-box-front2 {
     background-color: #bbb;
     color: black;
   }
   
-  /* Style the back side */
-  .flip-box-back {
+  .flip-box-back2 {
     background-color: #293C32;
     color: white;
     transform: rotateY(180deg);
   }
 
+  
 
 
 
@@ -150,61 +195,3 @@ footer {
     font-family: 'Quicksand';
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .image-1 {
-    width: 40%;
-    margin: 4em;
-
-}
-
-.image-2 {
-    width: 40%;
-    margin: 4em;
-
-}
-
-.paragraph-1 {
-    margin: 4em;
-    padding: 2em;
-    font-size: larger;
-    max-width: 500px;
-
-}
-
-.paragraph-2 {
-    margin: 4em;
-    padding: 2em;
-    font-size: larger;
-    max-width: 500px;
-
-} */

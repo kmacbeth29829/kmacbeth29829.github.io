@@ -28,7 +28,14 @@ header{
     padding: 40px;
     float: left;
 }
+.motto{
+    float: left;
+    margin-right: 20em;
+}
 
+.favicon{
+    float: left;
+}
 
 /* ----------------------------body-------------------- */
 
