@@ -1,0 +1,43 @@
+@media only screen and  (min-width: 40.5em){
+/* -------------heading------------- */
+.navigation{
+    flex-direction: row;
+    float: right;
+}
+
+.ham{
+    display: none;
+}
+
+header{
+    
+    flex-direction: row;
+}
+
+
+.navigation li {
+    display: block; 
+    flex: 1 1 100%;
+}
+
+.navigation li:first-child {
+    display: none;
+}
+
+.title {
+    padding: 40px;
+    float: left;
+}
+.motto{
+    float: left;
+    margin-right: 20em;
+}
+
+.favicon{
+    float: left;
+}
+
+/* ----------------------------body-------------------- */
+
+
+}
