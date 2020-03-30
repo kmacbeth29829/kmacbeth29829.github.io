@@ -2,50 +2,107 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home</title>
-  <link rel="shortcut icon" href="img/favicon-32x32.png">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="reservation-styles/small.css">
-  <link rel="stylesheet" href="reservation-styles/medium.css">
-  <link rel="stylesheet" href="reservation-styles/large.css">
-  <link rel="stylesheet" href="reservation-styles/normalize.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+    <link rel="shortcut icon" href="img/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reservation-styles/index-styles/small.css">
+    <link rel="stylesheet" href="reservation-styles/index-styles/medium.css">
+    <link rel="stylesheet" href="reservation-styles/index-styles/large.css">
+    <link rel="stylesheet" href="reservation-styles/index-styles/normalize.css">
 </head>
 
 <body>
-  <header>
-    <ul class="navigation">
-      <li><a class="ham" href="#">&#9776; Menu</a></li>
-      <li> <a href="/temple/index.html">Home</a></li>
-      <li> <a href="/temple/temple-page.html">Temples</a></li>
-      <li> <a href="/temple/reservation.html">Reservation</a></li>
-      <li> <a href="/temple/services.html">Services</a></li>
-      <li> <a href="/temple/contact.html">Contact Page</a></li>
-    </ul>
-    </nav>
-    <h1 class="title">Temple Inn and Suites</h1>
-    <img class="favicon" src="img/favicon-32x32.png" alt=" favicon">
-  </header>
-  <main>
-    <p class="motto"> Let us help you <br>
-      Come unto Christ </p>
-    <img class="landscape" src="img/landscape.jpg" alt="landscape">
-   
+    <header>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li> <a href="/temple/index.html">Home</a></li>
+            <li> <a href="/temple/temple-page.html">Temples</a></li>
+            <li> <a href="/temple/reservation.html">Reservation</a></li>
+            <li> <a href="/temple/services.html">Services</a></li>
+            <li> <a href="/temple/contact.html">Contact Page</a></li>
+        </ul>
+        </nav>
+        <h1 class="title">Temple Inn and Suites</h1>
+        <img class="favicon" src="img/favicon-32x32.png" alt=" favicon">
+    </header>
+    <main>
+        <p class="motto"> Let us help you <br>
+            Come unto Christ </p>
+        <img class="landscape" src="img/landscape.jpg" alt="landscape">
+        <form action="thanks.html" method="GET">
+            <fieldset>
+                <div class="top">
+                    <h3>Pick your Vacation</h3>
+                    <label for="location">*Location:</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Columbia River Whashington</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Provo City Center</label><br>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Cordoba Argentina</label>
+                </div>
+                <div class="top">
+                    <label for="date"> Date:</label>
+                    <input type="date" name="date" id="name">
+                </div>
+                <div class="top">
+                    <label for="rooms">*Number of Rooms:</label>
+                    <input type="text" id="rooms" name="rooms" required>
+                </div>
+                <div class="top">
+                    <label for="roomType">Room Type:</label>
+                    <input list="roomType">
 
-    <div class="button">
-      <button>Reserve a Room</button>
-    </div>
-  </main>
-  <footer>
-    <p>&copy Temple Inn and Suites | Kenna Macbeth | <span id="currentDate"></span> </p>
-  </footer>
-  <script src="scripts/currentDate.js"></script>
-  <!-- <script src="scripts/main.js"></script> -->
-  <script src="scripts/menu.js"></script>
-  <script src="scripts/provo.js"></script>
+                    <datalist id="roomType">
+                        <option value="Double">
+                        <option value="Single">
+                        <option value="Suite">
+                        <option value="Private">
+                        <option value="Honeymoon">
+                    </datalist>
+                </div>
+            </fieldset>
+                <fieldset>
+                <div class="top">
+                    <label for="fullName">*Full Name:</label>
+                    <input type="text" id="fullName" name="fullName" minlength="5" pattern="[A-Za-z]{5}" required>
+                </div>
+                <div class="top">
+                    <label for="email">*Email:</label>
+                    <input type="text" id="email" name="email" placeholder="example@gmail.com" required>
+                </div>
+                <div class="top">
+                    <label for="phone">*Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="top">
+                    <label for="country">*Country:</label>
+                    <input type="text" name="country" id="country" required>
+                </div>
+                <div class="top">
+                    <label for="zipCode">*ZipCode:</label>
+                    <input type="number" name="zipCode" id="zipCode" required>
+                </div>
+            </fieldset>
+            <div class="text">
+                <h2 class="comments">Additional Comments</h2>
+                <label for="textArea"> <textarea name="textArea" id="textArea" cols="30" rows="10"></textarea></label>
+            </div>
+            <div class="submit">
+                <label for="submit"><input type="submit" id="submit" name="submit" value="Reserve Now!"></label>
+            </div>
 
-  </footer>
+        </form>
+    </main>
+    <footer>
+        <p>&copy Temple Inn and Suites | Kenna Macbeth | <span id="currentDate"></span> </p>
+    </footer>
+    <script src="scripts/currentDate.js"></script>
+    <script src="scripts/menu.js"></script>
+
+    </footer>
 </body>
 
 </html>
