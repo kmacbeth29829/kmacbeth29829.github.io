@@ -78,94 +78,31 @@ body {
 
 
 /* ---------------sections-------------------- */
-.flip-box {
-    background-color: transparent;
-    width: 300px;
-    height: 200px;
-    perspective: 1000px; 
-    padding: 200px;
-  }
-  
-  .flip-box-inner {
-    width: 600px;
-    height: 400px;
-    margin-left: 10em;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-    display: flex;
-    flex-direction: row;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-  
-  .flip-box:hover .flip-box-inner {
-    transform: rotateY(180deg);
-  }
-  
-  .flip-box-front, .flip-box-back {
-    position: absolute;
-    width: 600px;
-    height: 400px;
-    -webkit-backface-visibility: hidden; 
-    backface-visibility: hidden;
-  }
-  
-  .flip-box-front {
-    background-color: #bbb;
-    color: black;
-  }
-  
-  .flip-box-back {
-    background-color: #293C32;
-    color: white;
-    transform: rotateY(180deg);
-  }
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+  font-size: 3em;
+  font-weight: 900;
+}
 
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-  .flip-box2 {
-    background-color: transparent;
-    width: 300px;
-    height: 200px;
-    perspective: 1000px; 
-    padding: 150px;
-    text-align: center;
-    margin-left: 10px;
-  }
-  
-  .flip-box-inner2 {
-    width: 600px;
-    height: 400px;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-  
-  .flip-box2:hover .flip-box-inner2 {
-    transform: rotateY(180deg);
-  }
-  
-  .flip-box-front2, .flip-box-back2 {
-    position: absolute;
-    width: 600px;
-    height: 400px;
-    -webkit-backface-visibility: hidden; 
-    backface-visibility: hidden;
-    margin-right : 0em;
-  }
-  
-  .flip-box-front2 {
-    background-color: #bbb;
-    color: black;
-  }
-  
-  .flip-box-back2 {
-    background-color: #293C32;
-    color: white;
-    transform: rotateY(180deg);
-  }
+.serviceimg{
+  opacity: .6;
+}
+.serviceimg:hover {
+  opacity: 1.0;
+}
 
-  
-
+.container a{
+  color: white;
+}
 
 
 /* ---------------button-------------- */
