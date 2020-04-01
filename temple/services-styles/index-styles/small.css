@@ -25,18 +25,13 @@ a:active {
     text-decoration: underline;
 }
 
-/* .title{
-    text-align: center;
-} */
 
 .favicon{
     margin-top: 60px;
     width: 45px;
 }
 
-body{
-    text-align: center;
-}
+
 
 .landscape{
     text-align: center;
@@ -77,6 +72,9 @@ body {
 }
 
 
+
+
+
 /* ---------------sections-------------------- */
 .container {
   position: relative;
@@ -86,6 +84,11 @@ body {
   font-weight: 900;
 }
 
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 .centered {
   position: absolute;
   top: 50%;
@@ -98,12 +101,39 @@ body {
 }
 .serviceimg:hover {
   opacity: 1.0;
+  color: black;
 }
 
 .container a{
   color: white;
 }
 
+.container a:hover{
+  color: black;
+  opacity: 1.0;
+}
+
+.breakfast{
+  grid-column: 2;
+  margin: 100px;
+}
+
+.services{
+  grid-column: 1;
+  margin-left: 150px;
+}
+
+.list{
+  list-style: square;
+  padding: 0px;
+}
+
+/* -----------------------reception---------------------- */
+.reception{
+  background-color: #7a9e7e;
+  text-align: center;
+  justify-items: center;
+}
 
 /* ---------------button-------------- */
 button {
