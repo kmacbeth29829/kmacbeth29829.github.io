@@ -32,11 +32,33 @@
    
   </header>
   <main>
-    
-
-    <div class="button">
-      <button>Reserve a Room</button>
+    <form action="thanks.html" method="GET">
+      <fieldset>
+        <h2>We understand a missionary's Schedule and we would like to help! <br>
+        Let us know your situation and how long you would like to stay!</h2>
+        <div class="top">
+          <label for="fullName">*Full Name:</label>
+          <input type="text" id="fullName" name="fullName" minlength="5" pattern="[A-Za-z]{5}" required>
+      </div>
+      <div class="top">
+          <label for="email">*Email:</label>
+          <input type="text" id="email" name="email" placeholder="example@gmail.com" required>
+      </div>
+      <div class="top">
+          <label for="phone">*Phone:</label>
+          <input type="tel" id="phone" name="phone" required>
+      </div>
+      <div class="text">
+        <h2 class="comments">Let us know how we can help you!</h2>
+        <label for="textArea"> <textarea name="textArea" id="textArea" cols="70" rows="20"></textarea></label>
     </div>
+    <div class="submit">
+        <label for="submit"><input class="styleSubmit" type="submit" id="submit" name="submit" value="Reserve a missionary room now!"></label>
+    </div>
+      </fieldset>
+
+
+    </form>
   </main>
   <footer>
     <p>&copy Temple Inn and Suites | Kenna Macbeth | <span id="currentDate"></span> </p>

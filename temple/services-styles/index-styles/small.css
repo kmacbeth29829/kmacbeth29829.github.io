@@ -72,9 +72,6 @@ body {
 }
 
 
-
-
-
 /* ---------------sections-------------------- */
 .container {
   position: relative;
@@ -97,10 +94,10 @@ body {
 }
 
 .serviceimg{
-  opacity: .6;
+  opacity: 1.0;
 }
 .serviceimg:hover {
-  opacity: 1.0;
+  opacity: .5;
   color: black;
 }
 
@@ -110,7 +107,7 @@ body {
 
 .container a:hover{
   color: black;
-  opacity: 1.0;
+  opacity: 1.5;
 }
 
 .breakfast{
@@ -130,9 +127,12 @@ body {
 
 /* -----------------------reception---------------------- */
 .reception{
-  background-color: #7a9e7e;
   text-align: center;
   justify-items: center;
+  padding: 20px;
+  margin: 20px;
+  font-size: x-large;
+  
 }
 
 /* ---------------button-------------- */
@@ -149,6 +149,25 @@ button {
 .button {
     text-align: center;
     margin: 4em;
+}
+
+fieldset{
+  border: none;
+  padding: 10px;
+}
+
+.top{
+  padding: 10px;
+}
+
+.submit{
+  padding: 20px;
+}
+
+.styleSubmit{
+  padding: 20px;
+  background-color: black;
+  color: white;
 }
 
 /* --------------------footer------------------- */

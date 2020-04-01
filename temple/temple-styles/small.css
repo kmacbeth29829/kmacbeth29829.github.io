@@ -29,18 +29,19 @@ a:active {
     text-align: center;
 } */
 
-.favicon{
+.favicon {
     margin-top: 60px;
     width: 45px;
 }
 
-body{
+body {
     text-align: center;
 }
 
-.landscape{
+.landscape {
     text-align: center;
 }
+
 .navigation li:first-child {
     display: block;
 }
@@ -78,20 +79,17 @@ body {
 
 
 /* ---------------sections-------------------- */
-.temple-pic-1{
-  float: right;
-} 
-
-.weather_summary1{
-  float: right;
+.temple-pic-1 {
+    float: right;
 }
 
-.paragraph1{
-  width: 800px;
-  margin: auto;
+.weather_summary1 {
+    float: right;
 }
 
-  
+
+
+
 
 
 
