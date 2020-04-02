@@ -1,10 +1,10 @@
 /* --------------- header ------------- */
-li {
+.li {
     margin-bottom: 1.5em;
     padding: 20px;
 }
 
-ul li a {
+.navigation .li .a {
     color: White;
     font-family: 'Quicksand';
     font-size: larger;
@@ -12,41 +12,48 @@ ul li a {
 
 }
 
-ul {
+.navigation {
     list-style: none;
 }
 
 
-a:hover {
+.a:hover {
     text-decoration: underline;
 }
 
-a:active {
+.a:active {
     text-decoration: underline;
 }
 
-/* .title{
-    text-align: center;
-} */
+.a:visited{
+    color: black;
+}
+
 
 .favicon {
     margin-top: 60px;
     width: 45px;
+    text-align: center;
+    margin-left: 18em;
 }
 
-body {
+.motto{
     text-align: center;
 }
+.title{
+    text-align: center;
+}
+
 
 .landscape {
     text-align: center;
 }
 
-.navigation li:first-child {
+.navigation .li:first-child {
     display: block;
 }
 
-.responsive li {
+.responsive .li {
     display: none;
 }
 
@@ -79,14 +86,26 @@ body {
 
 
 /* ---------------sections-------------------- */
-.temple-pic-1 {
-    float: right;
-}
 
-.weather_summary1 {
-    float: right;
-}
 
+ .grid{
+     display: grid;
+     grid-template-columns: 1fr;
+     margin-left: 80px;
+ }
+
+ article{
+     background-color: black;
+     margin-right: 60px;
+     text-align: center;
+     width: 425px;
+     padding: 10px;
+ }
+
+ .temple-pic-1, .temple-pic-2, .temple-pic-3 {
+     width: 425px;
+     height: 325px;
+ }
 
 
 

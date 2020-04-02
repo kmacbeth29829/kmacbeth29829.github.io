@@ -1,6 +1,6 @@
 [
 {
-    "TempleName": "Provo City Center Temple",
+    "TempleName": "Provo City Center",
     "StreetLine1" : "50 South University Ave ",
     "StreetLine2": "",
     "City": "Provo",
@@ -43,7 +43,7 @@
  
 },
 {
-    "TempleName": "Cordoba Argentina Temple",
+    "TempleName": "Cordoba Argentina",
     "StreetLine1" : "Avenida Pedro Laplace 5637 ",
     "StreetLine2": "",
     "City": "Avenida",
@@ -85,7 +85,7 @@
  
 },
 {
-    "TempleName": "Columbia River Washington Temple",
+    "TempleName": "Columbia River Washington",
     "StreetLine1" : "969 Gage Blvd ",
     "City": "Richland",
     "State": "WA",

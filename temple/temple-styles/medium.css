@@ -1,4 +1,4 @@
-@media only screen and  (min-width: 40.5em){
+@media only screen and  (min-width: 50.5em){
 /* -------------heading------------- */
 .navigation{
     flex-direction: row;
@@ -35,9 +35,12 @@ header{
 
 .favicon{
     float: left;
+    margin-left: auto;
 }
 
 /* ----------------------------body-------------------- */
-
+.grid{
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
 }
