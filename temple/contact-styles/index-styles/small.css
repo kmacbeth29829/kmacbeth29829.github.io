@@ -78,92 +78,34 @@ body {
 
 
 /* ---------------sections-------------------- */
-.flip-box {
-    background-color: transparent;
-    width: 300px;
-    height: 200px;
-    perspective: 1000px; 
-    padding: 200px;
-  }
-  
-  .flip-box-inner {
-    width: 600px;
-    height: 400px;
-    margin-left: 10em;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-    display: flex;
-    flex-direction: row;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-  
-  .flip-box:hover .flip-box-inner {
-    transform: rotateY(180deg);
-  }
-  
-  .flip-box-front, .flip-box-back {
-    position: absolute;
-    width: 600px;
-    height: 400px;
-    -webkit-backface-visibility: hidden; 
-    backface-visibility: hidden;
-  }
-  
-  .flip-box-front {
-    background-color: #bbb;
-    color: black;
-  }
-  
-  .flip-box-back {
-    background-color: #293C32;
-    color: white;
-    transform: rotateY(180deg);
-  }
+.grid{
+  display: grid;
+  grid-template-columns: 1fr;
+}
 
+form{
+  padding: 10px;
+  margin: 20px;
+}
 
-  .flip-box2 {
-    background-color: transparent;
-    width: 300px;
-    height: 200px;
-    perspective: 1000px; 
-    padding: 150px;
-    text-align: center;
-    margin-left: 10px;
-  }
-  
-  .flip-box-inner2 {
-    width: 600px;
-    height: 400px;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-  
-  .flip-box2:hover .flip-box-inner2 {
-    transform: rotateY(180deg);
-  }
-  
-  .flip-box-front2, .flip-box-back2 {
-    position: absolute;
-    width: 600px;
-    height: 400px;
-    -webkit-backface-visibility: hidden; 
-    backface-visibility: hidden;
-    margin-right : 0em;
-  }
-  
-  .flip-box-front2 {
-    background-color: #bbb;
-    color: black;
-  }
-  
-  .flip-box-back2 {
-    background-color: #293C32;
-    color: white;
-    transform: rotateY(180deg);
-  }
+input{
+  padding: 10px;
+  margin: 20px;
+  width: 25em;
+}
 
+.label{
+  display: block;
+  padding: 10px;
+}
+
+.submit{
+  margin: 20px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: 2px solid black;
+}
   
 
 
