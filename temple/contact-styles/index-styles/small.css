@@ -11,6 +11,20 @@ ul li a {
     text-decoration: none;
 
 }
+li a {
+  list-style: none;
+  color: white;
+  font-family: 'Quicksand';
+}
+
+li{
+  list-style: none;
+ 
+}
+
+a{
+  text-decoration: none;
+}
 
 ul {
     list-style: none;
@@ -25,9 +39,6 @@ a:active {
     text-decoration: underline;
 }
 
-/* .title{
-    text-align: center;
-} */
 
 .favicon{
     margin-top: 60px;

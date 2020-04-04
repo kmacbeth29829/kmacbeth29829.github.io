@@ -16,6 +16,24 @@
     list-style: none;
 }
 
+.li .a {
+    list-style: none;
+    color: white;
+    font-family: 'Quicksand';
+}
+
+.li {
+    list-style: none;
+
+}
+
+.a {
+    text-decoration: none;
+}
+
+.ul {
+    list-style: none;
+}
 
 .a:hover {
     text-decoration: underline;
@@ -25,7 +43,7 @@
     text-decoration: underline;
 }
 
-.a:visited{
+.a:visited {
     color: black;
 }
 
@@ -37,10 +55,11 @@
     margin-left: 18em;
 }
 
-.motto{
+.motto {
     text-align: center;
 }
-.title{
+
+.title {
     text-align: center;
 }
 
@@ -88,24 +107,26 @@ body {
 /* ---------------sections-------------------- */
 
 
- .grid{
-     display: grid;
-     grid-template-columns: 1fr;
-     margin-left: 80px;
- }
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 80px;
+}
 
- article{
-     background-color: black;
-     margin-right: 60px;
-     text-align: center;
-     width: 425px;
-     padding: 10px;
- }
+article {
+    background-color: black;
+    margin-right: 60px;
+    text-align: center;
+    width: 425px;
+    padding: 10px;
+}
 
- .temple-pic-1, .temple-pic-2, .temple-pic-3 {
-     width: 425px;
-     height: 325px;
- }
+.temple-pic-1,
+.temple-pic-2,
+.temple-pic-3 {
+    width: 425px;
+    height: 325px;
+}
 
 
 
