@@ -43,9 +43,6 @@ a:active {
     text-decoration: underline;
 }
 
-/* .title{
-    text-align: center;
-} */
 
 .favicon{
     margin-top: 60px;
@@ -96,24 +93,20 @@ body {
 
 
 /* ---------------sections-------------------- */
-.flip-box {
+/* .flip-box {
     background-color: transparent;
     width: 300px;
     height: 200px;
     perspective: 1000px; 
-    padding: 200px;
+    text-align: center;
   }
   
   .flip-box-inner {
     width: 600px;
     height: 400px;
-    margin-left: 10em;
     transition: transform 0.8s;
     transform-style: preserve-3d;
-    display: flex;
-    flex-direction: row;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    text-align: center;
   }
   
   .flip-box:hover .flip-box-inner {
@@ -122,8 +115,6 @@ body {
   
   .flip-box-front, .flip-box-back {
     position: absolute;
-    width: 600px;
-    height: 400px;
     -webkit-backface-visibility: hidden; 
     backface-visibility: hidden;
   }
@@ -145,14 +136,11 @@ body {
     width: 300px;
     height: 200px;
     perspective: 1000px; 
-    padding: 150px;
     text-align: center;
-    margin-left: 10px;
+    
   }
   
   .flip-box-inner2 {
-    width: 600px;
-    height: 400px;
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
@@ -164,8 +152,6 @@ body {
   
   .flip-box-front2, .flip-box-back2 {
     position: absolute;
-    width: 600px;
-    height: 400px;
     -webkit-backface-visibility: hidden; 
     backface-visibility: hidden;
     margin-right : 0em;
@@ -180,12 +166,18 @@ body {
     background-color: #293C32;
     color: white;
     transform: rotateY(180deg);
+  } */
+
+  .section1, .section2{
+    background-color: black;
+    padding: 20px;
+    margin: 30px;
   }
 
-  
-
-
-
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 /* ---------------button-------------- */
 button {
     background-color: black;
